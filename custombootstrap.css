@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Jan, 2018, 10:29:37 AM
+    Author     : JARVIS
+*/
+h2{
+    color: #ffffff;
+    text-align:center;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+.he{
+    font-family:Futura Md BT;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+.l1{
+    border:solid 2px;
+    border-color:white;
+    border-radius: 3px;
+    margin-left:  5px;
+    margin-bottom: 15px;
+    
+    
+}
+.p1{
+    font-family: Futura Md BT;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width:100%;
+    }
+}
